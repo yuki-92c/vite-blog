@@ -17,6 +17,6 @@ prev: false
 
 <ul>
   <li v-for="post of posts">
-    <a :href="post.url" class="home-posts-article-title">{{post.frontmatter.title}}</a>
+    <a :href="'/vite-blog' + post.url" class="home-posts-article-title">{{post.frontmatter.title}}</a>
   </li>
 </ul>
