@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "sai_blog",
   description: "sai_blog",
+  base: '/vite-blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
